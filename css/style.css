@@ -1,0 +1,133 @@
+/*MENU*/
+.menu {
+    padding: 32px 0 0;
+}
+.menu__inner ul {
+    list-style-type: none;
+    padding: 0;
+    height: 54px;
+    width: 945px;
+    border-bottom: 1px solid #828282;
+}
+.menu__inner ul li {
+    display: inline;
+}
+.menu__inner ul li:not(:last-child) {
+    margin-right: 155px;
+}
+.menu__inner a {
+    font-weight: 700;
+    font-size: 16px;
+}
+.menu__inner .home_a {
+    color: black;
+}
+/*HOME*/
+.home {
+    padding: 39px 0 104px;
+}
+.home_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    flex-wrap: wrap;
+}
+.home_inner h1 {
+    font-weight: 700;
+    margin: 0;
+    flex: 0 1 123px;
+    font-size: 50px;
+    line-height: 75px;
+}
+.home_inner p {
+    font-size: 20px;
+    text-align: center;
+}
+.home_inner a {
+    font-weight: 500;
+    transform: rotate(-90deg);
+    margin-bottom: 20px;
+    color: #828282;
+}
+.home_inner .eng {
+    color: black;
+}
+.home_inner img {
+    margin-top: 50px;
+    width: 950px;
+}
+.me {
+    padding: 120px 0 107px;
+    background-color: #E5E5E5;
+}
+.me p {
+    width: 485px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+}
+.me .p1 {
+    margin: 30px auto 40px;
+}
+.skills {
+    padding: 91px 0 101px;
+}
+.skills_items1 {
+    display: flex;
+    justify-content: space-between;
+    width: 645px;
+    margin: 150px auto 0;
+}
+.skills_items2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.skills_items {
+    flex: 0 1 166px;
+    text-align: center;
+}
+.skills_items .hg200 {
+    height: 200px;
+}
+.skills_items img {
+    width: 300px;
+}
+.skills_items h3 {
+    margin: 23px auto 40px;
+    color: #828282;
+    font-weight: bold;
+}
+.skills_items .stars4 {
+    margin-top: 15px;
+}
+/*PORTFOLIO*/
+.portfolio {
+    padding: 112px 0 96px;
+    background-color: #E5E5E5;
+}
+.portfolio h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 34px;
+}
+.portfolio .woman {
+    background-color: white;
+    width: 936px;
+    margin: 53px auto 44px;
+    padding: 0 0px 20px 70px;
+    display: flex;
+}
+.portfolio .woman_items {
+    justify-content: space-between;
+}
+.portfolio .woman_items.first {
+    padding: 80px 0 27px;
+    flex: 0 1 285px;
+}
+.portfolio .woman_items.first h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+    
+}

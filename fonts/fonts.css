@@ -1,0 +1,14 @@
+@font-face {
+	font-family: 'Girloy';
+	src: url('Gilroy-Bold[1]/fonts/Gilroy-Bold[1].eot');
+	src: local('☺'), url('Gilroy-Bold[1]/fonts/Gilroy-Bold[1].woff') format('woff'), url('Gilroy-Bold[1]/fonts/Gilroy-Bold[1].ttf') format('truetype'), url('Gilroy-Bold[1]/fonts/Gilroy-Bold[1].svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Girloy';
+	src: url('Gilroy-Medium/fonts/Gilroy-Medium.eot');
+	src: local('☺'), url('Gilroy-Medium/fonts/Gilroy-Medium.woff') format('woff'), url('Gilroy-Medium/fonts/Gilroy-Medium.ttf') format('truetype'), url('Gilroy-Medium/fonts/Gilroy-Medium.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}

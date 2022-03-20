@@ -1,0 +1,20 @@
+* {
+    font: 14px "Girloy", sans-serif;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 945px;
+    margin: 0 auto;
+}
+.btn.ordinary {
+    color: #828282;
+    text-decoration: none;
+}
+h2 {
+    font-size: 34px;
+    text-align: center;
+    font-weight: bold;
+}
