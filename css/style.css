@@ -111,23 +111,3 @@
     font-weight: bold;
     font-size: 34px;
 }
-.portfolio .woman {
-    background-color: white;
-    width: 936px;
-    margin: 53px auto 44px;
-    padding: 0 0px 20px 70px;
-    display: flex;
-}
-.portfolio .woman_items {
-    justify-content: space-between;
-}
-.portfolio .woman_items.first {
-    padding: 80px 0 27px;
-    flex: 0 1 285px;
-}
-.portfolio .woman_items.first h3 {
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 50px;
-    
-}
