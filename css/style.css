@@ -63,7 +63,7 @@
 .me p {
     width: 485px;
     margin: 0 auto;
-    text-align: justify;
+    text-align: center;
     font-size: 18px;
 }
 .me .p1 {
@@ -93,10 +93,12 @@
 .skills_items img {
     width: 300px;
 }
+
 .skills_items h3 {
     margin: 23px auto 40px;
     color: #828282;
     font-weight: bold;
+    text-align: justify;
 }
 .skills_items .stars4 {
     margin-top: 15px;
