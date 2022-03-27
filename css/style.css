@@ -1,19 +1,30 @@
 /*MENU*/
 .menu {
-    padding: 32px 0 0;
+    background: #E1B97C;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu .logo img {
+    display: block;
+    width: 100px;
+    height: 100px;
 }
 .menu__inner ul {
     list-style-type: none;
     padding: 0;
     height: 54px;
     width: 945px;
-    border-bottom: 1px solid #828282;
+    text-align: end;
+    height: 10px;
 }
 .menu__inner ul li {
     display: inline;
 }
 .menu__inner ul li:not(:last-child) {
-    margin-right: 155px;
+    margin-right: 50px;
 }
 .menu__inner a {
     font-weight: 700;
@@ -25,6 +36,7 @@
 /*HOME*/
 .home {
     padding: 39px 0 104px;
+    background: white;
 }
 .home_inner {
     display: flex;
@@ -71,6 +83,7 @@
 }
 .skills {
     padding: 91px 0 101px;
+    background: white;
 }
 .skills_items1 {
     display: flex;
@@ -120,4 +133,15 @@
 }
 .portfolio .mvp img {
     width: 400px;
+}
+/*LOGO*/
+.logo_img {
+    padding: 112px 0 96px;
+    background: white;
+}
+.logo_img h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 100px;
 }
