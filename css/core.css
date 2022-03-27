@@ -8,6 +8,7 @@
 .container {
     width: 945px;
     margin: 0 auto;
+    position: relative;
 }
 .btn.ordinary {
     color: #9c660f;

@@ -3,6 +3,18 @@
     background: #E1B97C;
 }
 header {
+    background: #E1B97C;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 100;
+
+}
+.header_container {
+    width: 945px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,7 +27,6 @@ header {
 .menu__inner ul {
     list-style-type: none;
     padding: 0;
-    height: 54px;
     width: 100%;
     text-align: end;
     height: 10px;
@@ -23,7 +34,7 @@ header {
 .menu__inner ul li {
     display: inline;
 }
-.menu__inner ul li:not(:last-child) {
+.menu__inner ul li {
     margin-right: 50px;
 }
 .menu__inner a {
@@ -35,7 +46,7 @@ header {
 }
 /*HOME*/
 .home {
-    padding: 39px 0 104px;
+    padding: 100px 0;
     background: white;
 }
 .home_inner {
